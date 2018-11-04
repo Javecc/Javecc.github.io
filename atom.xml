@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-04T13:36:01.976Z</updated>
+  <updated>2018-11-04T14:01:29.192Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://yoursite.com/2018/11/04/Linux%E7%8E%AF%E5%A2%83%E5%9F%BA%E4%BA%8Ehexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/</id>
     <published>2018-11-04T09:01:00.000Z</published>
-    <updated>2018-11-04T13:36:01.976Z</updated>
+    <updated>2018-11-04T14:01:29.192Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="三言两语-写在前面"><a href="#三言两语-写在前面" class="headerlink" title="三言两语-写在前面"></a>三言两语-写在前面</h1><pre><code>每篇博客就像是珍藏已久的佳酿，编者总会急于与他人分享，但又仿佛是篇故事，情节太长竟难以三言两语而表之。作为新博客的第一篇博文，博主总是在思索该如何在用这篇技术博文搭建的博客里写下这篇技术博文，这听起来有点像递归，可如杨宗纬《这一路走来》中“这一路走来，说不上多辛苦，庆幸心里很清楚，是因为还有一点在乎，才执着这段旅途”所唱，人生何尝不识一场孤独的递归。孤独的人总是坚持，就像是痛苦比怯懦更接近勇敢，搭建博客途中的每一次填坑都让人艰苦但幸福，所以我把这系列文章分为同一类--“博途荦确”，愿每个coder都岁月无殇，坑有所长。</code></pre><p># </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="三言两语-写在前面"><a href="#三言两语-写在前面" class="headerlink" title="三言两语-写在前面"></a>三言两语-写在前面</h2><p>&emsp;&emsp;每篇博客就像是珍藏已久的佳酿，编者总会急于与他人分享，但又仿佛是篇故事，情节太长竟难以三言两语而表之。作为新博客的第一篇博文，博主总是在思索该如何在用这篇技术博文搭建的博客里写下这篇技术博文，这听起来有点像递归，可如杨宗纬《这一路走来》中“这一路走来，说不上多辛苦，庆幸心里很清楚，是因为还有一点在乎，才执着这段旅途”所唱，人生何尝不识一场孤独的递归。</p><p>&emsp;&emsp;孤独的人总是坚持，就像是痛苦比怯懦更接近勇敢，搭建博客途中的每一次填坑都让人艰苦但幸福，所以我把这系列文章分为同一类–“博途荦确”，愿每个coder都岁月无殇，坑有所长。</p><h2 id="开始前你需要知道的"><a href="#开始前你需要知道的" class="headerlink" title="开始前你需要知道的"></a>开始前你需要知道的</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;三言两语-写在前面&quot;&gt;&lt;a href=&quot;#三言两语-写在前面&quot; class=&quot;headerlink&quot; title=&quot;三言两语-写在前面&quot;&gt;&lt;/a&gt;三言两语-写在前面&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;每篇博客就像是珍藏已久的佳酿，编者总会急于与他人分享，但又仿佛是篇故
+        &lt;h2 id=&quot;三言两语-写在前面&quot;&gt;&lt;a href=&quot;#三言两语-写在前面&quot; class=&quot;headerlink&quot; title=&quot;三言两语-写在前面&quot;&gt;&lt;/a&gt;三言两语-写在前面&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;每篇博客就像是珍藏已久的佳酿，编者总会急于与他人分享，但又仿
       
     
     </summary>
