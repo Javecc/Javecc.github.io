@@ -100,7 +100,16 @@
 <meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片5.png">
 <meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片6.png">
 <meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片7.png">
-<meta property="og:updated_time" content="2018-11-06T15:16:06.074Z">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片11.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片8.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片9.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片10.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片12.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片13.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片14.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片15.png">
+<meta property="og:image" content="http://yoursite.com/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片16.png">
+<meta property="og:updated_time" content="2018-11-06T15:54:34.786Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux环境基于hexo+github搭建个人博客">
 <meta name="twitter:description" content="三言两语-写在前面&amp;emsp;&amp;emsp;每篇博客就像是珍藏已久的佳酿，编者总会急于与他人分享，但又仿佛是篇故事，情节太长竟难以三言两语而表之。作为新博客的第一篇博文，博主总是在思索该如何在用这篇技术博文搭建的博客里写下这篇技术博文，这听起来有点像递归，可如杨宗纬《这一路走来》中“这一路走来，说不上多辛苦，庆幸心里很清楚，是因为还有一点在乎，才执着这段旅途”所唱，人生何尝不识一场孤独的递归。 &amp;e">
@@ -406,7 +415,7 @@ animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.5k 字
+                  1.9k 字
                 </span>
               
 
@@ -422,7 +431,7 @@ animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  5 分钟
+                  6 分钟
                 </span>
               
             </div>
@@ -466,11 +475,26 @@ animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{
 <li>安装完成，会出现下图信息：<br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片5.png" alt="hexo安装完成"></li>
 <li>此时可以新开一个终端或者在其他路径下使用<strong>hexo</strong>命令试试，会发现：<br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片6.png" alt="hexo指令问题"></li>
 <li>看到这里，应该想一想会知道，和前面一样，要在其他路径下使用该命令，需要位该命令设置全局软链接，这里就不赘述，如图：<br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片7.png" alt="hexo建立软链接"><h3 id="配置git环境"><a href="#配置git环境" class="headerlink" title="配置git环境"></a>配置git环境</h3></li>
-<li>基础软件环境搭建好，接下来需要先初始化git环境：<br><code># 设置你的用户名 git config --global user.name &quot;Javecc&quot;</code><br><code># 设置你的邮箱 git config --global user.email &quot;qq@qq.com&quot;</code><h3 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h3></li>
-<li>终端cd到一个选定的目录(比如创建一个blog文件)，执行<strong>hexo init</strong>命令：<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<li>基础软件环境搭建好，接下来需要先初始化git环境：<br><code># 设置你的用户名 git config --global user.name &quot;Javecc&quot;</code><br><code># 设置你的邮箱 git config --global user.email &quot;qq@qq.com&quot;</code><br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片11.png" alt="配置git信息"></li>
+<li><strong>注意：</strong>这是博主的信息，你需要配置自己的信息，否则就会将仓库创建在我帐号里来啦。<h3 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h3></li>
+<li>终端cd到一个选定的目录(比如创建一个blog文件)，执行<strong>hexo init</strong>命令：<br><code>hexo init</code><br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片8.png" alt="初始化blog"></li>
+<li>在blog目录下，执行如下命令，安装<strong>npm</strong>(其实前面已经使用过)：<br><code>npm install</code><br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片9.png" alt="安装npm"><h3 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h3></li>
+<li>执行如下命令，开启hexo本地服务器，一般用于本地调试使用：<br><code>hexo s</code></li>
+<li>开启服务器以后，浏览器中输入url<strong><a href="https://localhost:4000" target="_blank" rel="noopener">https://localhost:4000</a></strong>，即可看见：<br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片10.png" alt="blog搭建成功"><h3 id="关联github"><a href="#关联github" class="headerlink" title="关联github"></a>关联github</h3></li>
+<li>在你的github官网账号上新建一个仓库，注意你的仓库名称一定要和你的用户名相同，否则就会出错。如图：</li>
+<li><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片12.png" alt="创建仓库"></li>
+<li>需要在你的站点配置文件中添加你的blog指向的仓库，建立远程连接：<br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片13.png" alt="配置文件"><br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片14.png" alt="配置信息"></li>
+<li><strong>打码的信息是你自己的username</strong></li>
+<li>配置成功以后就可以在浏览器中输入url<strong>username.github.io</strong>访问你的博客了，注意此时就是通过公网访问。<br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片15.png" alt="blog远程连接成功"><h3 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h3></li>
+<li>首先你需要购买一个域名，并在域名空间中解析并指向你的github仓库的ip地址。</li>
+<li>需要在<strong>/blog/themes/landscape/source</strong>路径下新建一个文本文件，里面写入你的域名，其实就是将你的blog指向该域名。<br><img src="/2018/11/04/Linux环境基于hexo-github搭建个人博客/图片16.png" alt="新建域名文件"></li>
+<li><p>接下来，在你的blog路径下，使用以下命令用于部署blog到github：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  #用于清除默认json信息</span><br><span class="line">hexo g      #生成静态页面</span><br><span class="line">hexo d      #部署blog</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>OK!此时，使用你自己的域名，在浏览器中便可访问你的blog啦！！！</p>
 </li>
 </ul>
-<h3 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h3><h3 id="关联github"><a href="#关联github" class="headerlink" title="关联github"></a>关联github</h3><h3 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h3>
+
       
     </div>
     
@@ -767,7 +791,7 @@ animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">1.5k</span>
+    <span title="Site words total count">1.9k</span>
   
 </div>
 
