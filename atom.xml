@@ -71,9 +71,9 @@
       <category term="BLOG-博途荦确" scheme="http://yoursite.com/categories/BLOG-%E5%8D%9A%E9%80%94%E8%8D%A6%E7%A1%AE/"/>
     
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
       <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
   </entry>
   
